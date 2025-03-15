@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>esley-desenvolvedor-web/esleygames/</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="/img/logo.png" alt="Logo do site" />
+    </div>
+    <h1>Esley Games</h1>
+    <h6>versão 0-0002</h6>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Início</a></li>
+      <li><a href="#">Jogos</a></li>
+      <li><a href="#">Mods</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+  </nav>
+
+  <section id="carrossel">
+    <div class="carousel-container">
+      <img src="/img/mods.png" alt="Imagem 1">
+      <img src="/img/avakin.png" alt="Imagem 2">
+      <img src="/img/avakin2.png" alt="Imagem 3">
+    </div>
+  </section>
+
+  <section id="destaque-jogo">
+    <div class="jogo">
+      <img src="/img/logoavakin.png" width="50px" height="50px" alt="Logo do Jogo" class="logo-jogo">
+      <h2>Mod (Avakin Life)</h2>
+      <h3>Melhor Mod menu (Avakin life) Link sem anúncios!</h3>
+      <div class="imagens-jogo">
+        <img src="/img/avakin2.png" width="193px" height="120px" alt="Imagem do Jogo 1">
+        <img src="/img/avakin2.png" width="193px" height="120px" alt="Imagem do Jogo 2">
+      </div>
+      <button class="curtir">Curtir</button>
+      <span id="contador-curtidas-destaque">0</span>
+      <button class="compartilhar">Compartilhar</button>
+      <a href="https://www.mediafire.com/file/qb6e9r9726hh4vf/AvakinXP%252BBodyVIP.apk/file" class="botao-download" target="_blank">Download</a>
+    </div>
+    <div class="comentarios">
+      <h3>Comentários:</h3>
+      <div id="lista-comentarios"></div>
+      <textarea id="novo-comentario" placeholder="Deixe seu comentário..."></textarea>
+      <button class="enviar-comentario">Enviar</button>
+    </div>
+  </section>
+
+  <section id="lista-jogos">
+    <h2>Videos anteriores</h2>
+    <div class="jogo">
+      <img src="/img/logoavakin.png" width="50px" height="50px" alt="Logo do Jogo 1">
+      <h3>Mod Avakin life</h3>
+      <div class="imagens-jogo">
+        <img src="/img/avakin.png" width="170px" height="110px" alt="Imagem do Jogo 1">
+        <img src="/img/avakin.png" width="170px" height="110px" alt="Imagem do Jogo 2">
+      </div>
+      <button class="curtir">Curtir</button>
+      <span id="contador-curtidas-jogo1">0</span>
+      <button class="compartilhar">Compartilhar</button>
+      <a href="https://www.mediafire.com/file/gyccw37sgpn3tqx/Avakin%252BLife%252B%2528crash%252Bfixed%2529_En.apk/file" class="botao-download" target="_blank">Download</a>
+      <div class="comentarios">
+        <h3>Comentários:</h3>
+        <div id="lista-comentarios"></div>
+        <textarea id="novo-comentario" placeholder="Deixe seu comentário..."></textarea>
+        <button class="enviar-comentario">Enviar</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="apoio">
+    <h2>Apoie-nos</h2>
+    <p>Contribua para o nosso projeto e nos ajude a continuar com o site!</p>
+    <button class="doar">Doar</button>
+    <h5>Indisponivel</h5>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+header .logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  background-color: #333;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+#carrossel {
+  padding: 1px;
+}
+
+.carousel-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 1px;
+}
+
+#destaque-jogo {
+  padding: 20px;
+  background-color: #fff;
+  margin: 20px 0;
+}
+
+#destaque-jogo .jogo {
+  text-align: center;
+}
+
+#destaque-jogo button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+#destaque-jogo span,
+#lista-jogos span {
+  margin-left: 5px;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+#lista-jogos button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+#destaque-jogo .compartilhar {
+  background-color: #333;
+  color: white;
+}
+
+#destaque-jogo .botao-download,
+#lista-jogos .botao-download {
+  display: inline-block;
+  background-color: #007dff;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.comentarios {
+  margin-top: 20px;
+}
+
+.comentarios textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.comentarios button {
+  background-color: #333;
+} 
+
+h5 {
+  color: red;
+}
+#apoio button {
+  background-color: #333;
+  color: white;
+}
+
+
